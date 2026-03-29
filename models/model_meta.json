@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "trained_at": "2026-03-28T15:34:52.012169+00:00",
+  "n_train_samples": 400050,
+  "best_params": {
+    "n_estimators": 1688,
+    "learning_rate": 0.029493012052163467,
+    "num_leaves": 33,
+    "min_child_samples": 126,
+    "subsample": 0.5852620618436457,
+    "colsample_bytree": 0.5325257964926398,
+    "reg_alpha": 5.5517216852447255,
+    "reg_lambda": 6.732248920775331,
+    "min_split_gain": 0.40419867405823057
+  },
+  "metrics": {
+    "test_roc_auc": 0.8097,
+    "test_avg_precision": 0.14578202863838227,
+    "test_precision": 0.15845824411134904,
+    "test_recall": 0.4016282225237449,
+    "test_f1": 0.2272552783109405,
+    "optimal_threshold": 0.11907957104484918
+  },
+  "benchmark_ms": {
+    "latency_ms_1": 67.02629999927012,
+    "latency_ms_1000": 70.87739999951737,
+    "latency_ms_10000": 186.2
+  },
+  "feature_columns": [
+    "geo",
+    "device_type",
+    "ad_format",
+    "placement",
+    "campaign_id",
+    "creative_id",
+    "impressions",
+    "clicks",
+    "ctr",
+    "spend",
+    "cpc",
+    "bid_amount",
+    "hour_of_day",
+    "day_of_week",
+    "campaign_age_days",
+    "avg_ctr_geo_7d",
+    "avg_ctr_device_7d",
+    "avg_ctr_creative_7d"
+  ],
+  "baseline_roc_auc": 0.8139,
+  "baseline_roc_auc_std": 0.0019
+}

@@ -1,0 +1,521 @@
+ad_id,text,geo,vertical,ctr,cr,has_number,has_urgency,has_social_proof,emotion,cta_strength,length_category,key_benefit,label
+1,Пока ты думаешь — другие забирают бонусы до 188$!,PL,betting,0.034346,0.005052,True,True,False,fear,1,medium,bonus,bad
+2,Успей за 226 минут! Эксклюзивный кэшбэк только для новых игроков!,UA,gambling,0.055798,0.006967,True,True,True,neutral,1,medium,cashback,good
+3,Торопись! Бонус до 106$ — акция заканчивается сегодня!,KZ,casino,0.053091,0.007923,True,True,False,neutral,1,medium,bonus,good
+4,Пока ты думаешь — другие забирают бонусы до 102$!,BY,betting,0.076948,0.00827,True,True,False,fear,1,medium,bonus,good
+5,Успей за 378 минут! Эксклюзивный кэшбэк только для новых игроков!,KZ,gambling,0.052899,0.004397,True,True,True,neutral,1,medium,cashback,bad
+6,Испытай удачу — ставь на спорт и получи заряд эмоций!,BY,casino,0.041657,0.005043,False,False,False,greed,2,medium,general,bad
+7,Забери свой бонус 44% — жми и начинай выигрывать прямо сейчас!,DE,betting,0.081866,0.01039,True,True,False,greed,4,medium,bonus,good
+8,Букмекерская контора с быстрыми выплатами.,UA,betting,0.018939,0.00223,False,False,False,neutral,1,short,fast_payouts,bad
+9,Бонус 422% + фрибет — не упусти шанс сорвать куш!,TR,gambling,0.062704,0.009009,True,True,False,fear,1,medium,bonus,good
+10,Нас уже 62K — стань частью сообщества победителей!,BY,gambling,0.036593,0.003196,True,False,True,neutral,1,medium,general,bad
+11,Бонус 458% + фрибет — не упусти шанс сорвать куш!,RU,gambling,0.072268,0.005907,True,True,False,fear,1,medium,bonus,good
+12,Азарт на максимум! Начни игру и сорви джекпот до 346$!,PL,casino,0.040947,0.003297,True,False,False,excitement,3,medium,jackpot,bad
+13,Уже 352+ игроков выиграли на этой неделе — присоединяйся!,KZ,betting,0.05597,0.007461,True,False,True,neutral,1,medium,general,good
+14,Азарт на максимум! Начни игру и сорви джекпот до 258$!,PL,betting,0.052531,0.00739,True,False,False,excitement,3,medium,jackpot,bad
+15,Последний шанс! 367 фриспинов ждут тебя — предложение истекает через час!,RU,gambling,0.069765,0.010389,True,True,False,neutral,1,medium,freespins,good
+16,Осталось 411 мест — зарегистрируйся прямо сейчас и получи фрибет!,BY,gambling,0.063995,0.005303,True,True,False,greed,2,medium,freebet,good
+17,Большой выбор слотов и настольных игр для любого вкуса.,BY,betting,0.027302,0.004053,False,False,False,neutral,1,medium,general,bad
+18,Нас уже 39K — стань частью сообщества победителей!,TR,gambling,0.033795,0.004891,True,False,True,neutral,1,medium,general,bad
+19,Ставки на спорт — удобно и надёжно.,BY,betting,0.028543,0.002502,False,False,False,neutral,1,medium,general,bad
+20,Упустишь — пожалеешь! Только 382 бонусов осталось!,KZ,betting,0.058706,0.007988,True,True,False,fear,1,medium,bonus,good
+21,Успей за 119 минут! Эксклюзивный кэшбэк только для новых игроков!,KZ,betting,0.054986,0.004513,True,True,True,neutral,1,medium,cashback,good
+22,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,PL,gambling,0.046637,0.004507,False,False,False,greed,1,medium,general,bad
+23,Пока ты думаешь — другие забирают бонусы до 175$!,KZ,casino,0.061518,0.006105,True,True,False,fear,1,medium,bonus,good
+24,Азарт на максимум! Начни игру и сорви джекпот до 433$!,DE,casino,0.050223,0.006541,True,False,False,excitement,3,medium,jackpot,bad
+25,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,KZ,betting,0.042917,0.003844,False,False,False,greed,1,medium,general,bad
+26,Последний шанс! 95 фриспинов ждут тебя — предложение истекает через час!,KZ,gambling,0.054095,0.007794,True,True,False,neutral,1,medium,freespins,good
+27,Удвой депозит до 69$! Жми на кнопку — деньги ждут!,UA,gambling,0.065561,0.005326,True,False,False,greed,3,medium,deposit_bonus,good
+28,Нас уже 481K — стань частью сообщества победителей!,KZ,gambling,0.032899,0.004364,True,False,True,neutral,1,medium,general,bad
+29,Азарт на максимум! Начни игру и сорви джекпот до 144$!,BY,gambling,0.043541,0.006254,True,False,False,excitement,3,medium,jackpot,bad
+30,Нас уже 492K — стань частью сообщества победителей!,TR,betting,0.035785,0.003467,True,False,True,neutral,1,medium,general,bad
+31,Уже 80+ игроков выиграли на этой неделе — присоединяйся!,KZ,betting,0.045148,0.006089,True,False,True,neutral,1,medium,general,bad
+32,Драйв начинается здесь! Делай ставку и побеждай!,TR,casino,0.052345,0.006659,False,False,False,excitement,3,medium,general,bad
+33,Букмекерская контора с быстрыми выплатами.,UA,gambling,0.020504,0.002447,False,False,False,neutral,1,short,fast_payouts,bad
+34,Уже 215+ игроков выиграли на этой неделе — присоединяйся!,DE,gambling,0.0349,0.00288,True,False,True,neutral,1,medium,general,bad
+35,Упустишь — пожалеешь! Только 54 бонусов осталось!,TR,gambling,0.046832,0.005438,True,True,False,fear,1,medium,bonus,bad
+36,Ставки на спорт — удобно и надёжно.,RU,gambling,0.025634,0.002741,False,False,False,neutral,1,medium,general,bad
+37,Успей за 350 минут! Эксклюзивный кэшбэк только для новых игроков!,DE,gambling,0.045711,0.004016,True,True,True,neutral,1,medium,cashback,bad
+38,Бонус 83% + фрибет — не упусти шанс сорвать куш!,UA,gambling,0.049197,0.005421,True,True,False,fear,1,medium,bonus,bad
+39,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,BY,gambling,0.049527,0.004803,False,False,False,greed,1,medium,general,bad
+40,Пока ты думаешь — другие забирают бонусы до 432$!,UA,betting,0.065746,0.005483,True,True,False,fear,1,medium,bonus,good
+41,Бонус 356% + фрибет — не упусти шанс сорвать куш!,BY,gambling,0.056788,0.00458,True,True,False,fear,1,medium,bonus,good
+42,Не упусти! Бонус 408% сгорает через 1 часа!,UA,betting,0.069233,0.008297,True,True,False,fear,1,medium,bonus,good
+43,Невероятные эмоции ждут — играй и выигрывай каждый день!,UA,betting,0.049177,0.006065,False,False,False,excitement,2,medium,general,bad
+44,Забери свой бонус 448% — жми и начинай выигрывать прямо сейчас!,RU,gambling,0.102616,0.011474,True,True,False,greed,4,medium,bonus,good
+45,Азарт на максимум! Начни игру и сорви джекпот до 492$!,TR,betting,0.065201,0.008864,True,False,False,excitement,3,medium,jackpot,good
+46,Торопись! Бонус до 150$ — акция заканчивается сегодня!,KZ,betting,0.053955,0.004429,True,True,False,neutral,1,medium,bonus,good
+47,Удвой депозит до 12$! Жми на кнопку — деньги ждут!,DE,gambling,0.069634,0.009171,True,False,False,greed,3,medium,deposit_bonus,good
+48,Ставки на спорт — удобно и надёжно.,UA,gambling,0.032975,0.002929,False,False,False,neutral,1,medium,general,bad
+49,Торопись! Бонус до 347$ — акция заканчивается сегодня!,DE,betting,0.042092,0.003416,True,True,False,neutral,1,medium,bonus,bad
+50,Азарт на максимум! Начни игру и сорви джекпот до 290$!,UA,gambling,0.058127,0.008232,True,False,False,excitement,3,medium,jackpot,good
+51,Почувствуй адреналин! Крути слоты и выигрывай до 312$!,KZ,gambling,0.045192,0.004548,True,False,False,excitement,2,medium,general,bad
+52,Получи до 488$ без риска! Регистрируйся и выводи!,UA,gambling,0.064502,0.006204,True,False,False,greed,2,medium,general,good
+53,Без этого бонуса ты играешь в минус. Активируй 129% сейчас!,DE,betting,0.058984,0.007715,True,True,False,fear,2,medium,bonus,good
+54,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,PL,betting,0.031544,0.003449,False,False,False,greed,1,medium,general,bad
+55,Азарт на максимум! Начни игру и сорви джекпот до 9$!,TR,betting,0.051409,0.004451,True,False,False,excitement,3,medium,jackpot,bad
+56,Большой выбор слотов и настольных игр для любого вкуса.,DE,betting,0.023277,0.002106,False,False,False,neutral,1,medium,general,bad
+57,Ты теряешь деньги каждый день без кэшбэка 91%!,KZ,gambling,0.05127,0.004863,True,False,False,fear,1,medium,cashback,bad
+58,440 фриспинов бесплатно — активируй и забирай выигрыш!,UA,betting,0.066377,0.007712,True,False,False,greed,3,medium,freespins,good
+59,Букмекерская контора с быстрыми выплатами.,RU,gambling,0.030941,0.002702,False,False,False,neutral,1,short,fast_payouts,bad
+60,Большой выбор слотов и настольных игр для любого вкуса.,DE,gambling,0.019623,0.001707,False,False,False,neutral,1,medium,general,bad
+61,Нас уже 372K — стань частью сообщества победителей!,RU,betting,0.062265,0.00885,True,False,True,neutral,1,medium,general,good
+62,Испытай удачу — ставь на спорт и получи заряд эмоций!,RU,gambling,0.082677,0.009977,False,False,False,greed,2,medium,general,good
+63,Забери свой бонус 302% — жми и начинай выигрывать прямо сейчас!,KZ,betting,0.09636,0.010367,True,True,False,greed,4,medium,bonus,good
+64,Онлайн-казино с лицензией. Широкий выбор игр.,TR,betting,0.022178,0.002301,False,False,False,neutral,1,short,licensed,bad
+65,Упустишь — пожалеешь! Только 124 бонусов осталось!,RU,betting,0.067436,0.006349,True,True,False,fear,1,medium,bonus,good
+66,Не упусти! Бонус 240% сгорает через 13 часа!,RU,betting,0.069712,0.007927,True,True,False,fear,1,medium,bonus,good
+67,Ты теряешь деньги каждый день без кэшбэка 327%!,RU,betting,0.04702,0.004732,True,False,False,fear,1,medium,cashback,bad
+68,Более 152 выплат за сегодня — убедись сам!,BY,gambling,0.037153,0.005451,True,False,True,neutral,1,medium,fast_payouts,bad
+69,Последний шанс! 71 фриспинов ждут тебя — предложение истекает через час!,PL,gambling,0.031758,0.003912,True,True,False,neutral,1,medium,freespins,bad
+70,261 фриспинов бесплатно — активируй и забирай выигрыш!,KZ,gambling,0.061868,0.008639,True,False,False,greed,3,medium,freespins,good
+71,Драйв начинается здесь! Делай ставку и побеждай!,KZ,gambling,0.038512,0.004172,False,False,False,excitement,3,medium,general,bad
+72,Торопись! Бонус до 17$ — акция заканчивается сегодня!,KZ,gambling,0.069655,0.009942,True,True,False,neutral,1,medium,bonus,good
+73,Осталось 134 мест — зарегистрируйся прямо сейчас и получи фрибет!,DE,casino,0.070534,0.006854,True,True,False,greed,2,medium,freebet,good
+74,Упустишь — пожалеешь! Только 69 бонусов осталось!,DE,gambling,0.058006,0.005649,True,True,False,fear,1,medium,bonus,good
+75,83 человек забрали бонус за последний час! Ты следующий?,KZ,gambling,0.04538,0.005189,True,False,True,neutral,1,medium,bonus,bad
+76,198 фриспинов бесплатно — активируй и забирай выигрыш!,TR,gambling,0.059957,0.005324,True,False,False,greed,3,medium,freespins,good
+77,Не упусти! Бонус 242% сгорает через 20 часа!,UA,gambling,0.050145,0.0049,True,True,False,fear,1,medium,bonus,bad
+78,Не упусти! Бонус 191% сгорает через 3 часа!,TR,betting,0.065595,0.007383,True,True,False,fear,1,medium,bonus,good
+79,267 фриспинов бесплатно — активируй и забирай выигрыш!,TR,betting,0.066908,0.008826,True,False,False,greed,3,medium,freespins,good
+80,420 фриспинов бесплатно — активируй и забирай выигрыш!,UA,betting,0.055762,0.004657,True,False,False,greed,3,medium,freespins,good
+81,Забери свой бонус 397% — жми и начинай выигрывать прямо сейчас!,TR,betting,0.122103,0.017664,True,True,False,greed,4,medium,bonus,good
+82,Драйв начинается здесь! Делай ставку и побеждай!,PL,gambling,0.040614,0.006073,False,False,False,excitement,3,medium,general,bad
+83,33+ довольных игроков не могут ошибаться. Начни выигрывать!,UA,betting,0.04368,0.004696,True,False,True,neutral,3,medium,general,bad
+84,Успей за 324 минут! Эксклюзивный кэшбэк только для новых игроков!,BY,gambling,0.047483,0.00537,True,True,True,neutral,1,medium,cashback,bad
+85,Пока ты думаешь — другие забирают бонусы до 173$!,PL,gambling,0.064874,0.007232,True,True,False,fear,1,medium,bonus,good
+86,373+ довольных игроков не могут ошибаться. Начни выигрывать!,UA,gambling,0.047148,0.00477,True,False,True,neutral,3,medium,general,bad
+87,Упустишь — пожалеешь! Только 185 бонусов осталось!,KZ,betting,0.073172,0.008461,True,True,False,fear,1,medium,bonus,good
+88,Большой выбор слотов и настольных игр для любого вкуса.,DE,gambling,0.022241,0.002312,False,False,False,neutral,1,medium,general,bad
+89,221 фриспинов бесплатно — активируй и забирай выигрыш!,PL,gambling,0.059185,0.007451,True,False,False,greed,3,medium,freespins,good
+90,Букмекерская контора с быстрыми выплатами.,RU,betting,0.020341,0.001909,False,False,False,neutral,1,short,fast_payouts,bad
+91,Большой выбор слотов и настольных игр для любого вкуса.,UA,gambling,0.023104,0.002058,False,False,False,neutral,1,medium,general,bad
+92,Ты теряешь деньги каждый день без кэшбэка 383%!,UA,betting,0.045564,0.006549,True,False,False,fear,1,medium,cashback,bad
+93,272+ довольных игроков не могут ошибаться. Начни выигрывать!,DE,gambling,0.042563,0.005269,True,False,True,neutral,3,medium,general,bad
+94,Осталось 359 мест — зарегистрируйся прямо сейчас и получи фрибет!,PL,gambling,0.079385,0.008574,True,True,False,greed,2,medium,freebet,good
+95,Без этого бонуса ты играешь в минус. Активируй 306% сейчас!,PL,gambling,0.057259,0.006763,True,True,False,fear,2,medium,bonus,good
+96,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,BY,betting,0.037299,0.003622,False,False,False,greed,1,medium,general,bad
+97,Без этого бонуса ты играешь в минус. Активируй 462% сейчас!,KZ,gambling,0.07559,0.010082,True,True,False,fear,2,medium,bonus,good
+98,Последний шанс! 314 фриспинов ждут тебя — предложение истекает через час!,DE,gambling,0.041722,0.004091,True,True,False,neutral,1,medium,freespins,bad
+99,Испытай удачу — ставь на спорт и получи заряд эмоций!,BY,gambling,0.042174,0.005914,False,False,False,greed,2,medium,general,bad
+100,Почувствуй адреналин! Крути слоты и выигрывай до 184$!,UA,casino,0.057255,0.007944,True,False,False,excitement,2,medium,general,good
+101,Торопись! Бонус до 387$ — акция заканчивается сегодня!,UA,casino,0.043677,0.003965,True,True,False,neutral,1,medium,bonus,bad
+102,Последний шанс! 202 фриспинов ждут тебя — предложение истекает через час!,RU,betting,0.062149,0.005572,True,True,False,neutral,1,medium,freespins,good
+103,Ставки на спорт — удобно и надёжно.,PL,gambling,0.022514,0.001977,False,False,False,neutral,1,medium,general,bad
+104,Большой выбор слотов и настольных игр для любого вкуса.,TR,casino,0.024398,0.002895,False,False,False,neutral,1,medium,general,bad
+105,Испытай удачу — ставь на спорт и получи заряд эмоций!,UA,betting,0.041861,0.006277,False,False,False,greed,2,medium,general,bad
+106,Последний шанс! 55 фриспинов ждут тебя — предложение истекает через час!,PL,betting,0.056131,0.006303,True,True,False,neutral,1,medium,freespins,good
+107,Удвой депозит до 28$! Жми на кнопку — деньги ждут!,UA,gambling,0.069052,0.009546,True,False,False,greed,3,medium,deposit_bonus,good
+108,Без этого бонуса ты играешь в минус. Активируй 468% сейчас!,PL,gambling,0.057505,0.006578,True,True,False,fear,2,medium,bonus,good
+109,Ты теряешь деньги каждый день без кэшбэка 74%!,UA,gambling,0.040088,0.004705,True,False,False,fear,1,medium,cashback,bad
+110,Уже 256+ игроков выиграли на этой неделе — присоединяйся!,TR,casino,0.035164,0.002899,True,False,True,neutral,1,medium,general,bad
+111,Невероятные эмоции ждут — играй и выигрывай каждый день!,KZ,gambling,0.043522,0.006104,False,False,False,excitement,2,medium,general,bad
+112,277+ довольных игроков не могут ошибаться. Начни выигрывать!,UA,gambling,0.046733,0.006152,True,False,True,neutral,3,medium,general,bad
+113,376 человек забрали бонус за последний час! Ты следующий?,PL,gambling,0.026543,0.002531,True,False,True,neutral,1,medium,bonus,bad
+114,Испытай удачу — ставь на спорт и получи заряд эмоций!,BY,betting,0.050089,0.004309,False,False,False,greed,2,medium,general,bad
+115,Уже 90+ игроков выиграли на этой неделе — присоединяйся!,KZ,gambling,0.046592,0.005859,True,False,True,neutral,1,medium,general,bad
+116,Нас уже 459K — стань частью сообщества победителей!,DE,casino,0.025804,0.002412,True,False,True,neutral,1,medium,general,bad
+117,Нас уже 329K — стань частью сообщества победителей!,PL,betting,0.033258,0.00459,True,False,True,neutral,1,medium,general,bad
+118,Получи до 233$ без риска! Регистрируйся и выводи!,KZ,betting,0.049547,0.00565,True,False,False,greed,2,medium,general,bad
+119,211 человек забрали бонус за последний час! Ты следующий?,PL,gambling,0.039085,0.003867,True,False,True,neutral,1,medium,bonus,bad
+120,Последний шанс! 83 фриспинов ждут тебя — предложение истекает через час!,DE,betting,0.045371,0.003633,True,True,False,neutral,1,medium,freespins,bad
+121,Нас уже 447K — стань частью сообщества победителей!,RU,betting,0.05718,0.00648,True,False,True,neutral,1,medium,general,good
+122,Без этого бонуса ты играешь в минус. Активируй 238% сейчас!,PL,betting,0.048129,0.00614,True,True,False,fear,2,medium,bonus,bad
+123,52+ довольных игроков не могут ошибаться. Начни выигрывать!,RU,gambling,0.050419,0.00707,True,False,True,neutral,3,medium,general,bad
+124,173 человек забрали бонус за последний час! Ты следующий?,UA,gambling,0.040341,0.004951,True,False,True,neutral,1,medium,bonus,bad
+125,444+ довольных игроков не могут ошибаться. Начни выигрывать!,KZ,gambling,0.03544,0.004372,True,False,True,neutral,3,medium,general,bad
+126,Забери свой бонус 101% — жми и начинай выигрывать прямо сейчас!,TR,gambling,0.10225,0.015314,True,True,False,greed,4,medium,bonus,good
+127,Осталось 202 мест — зарегистрируйся прямо сейчас и получи фрибет!,BY,gambling,0.094231,0.008662,True,True,False,greed,2,medium,freebet,good
+128,Большой выбор слотов и настольных игр для любого вкуса.,KZ,gambling,0.028795,0.003105,False,False,False,neutral,1,medium,general,bad
+129,Драйв начинается здесь! Делай ставку и побеждай!,DE,gambling,0.041999,0.003664,False,False,False,excitement,3,medium,general,bad
+130,Большой выбор слотов и настольных игр для любого вкуса.,KZ,betting,0.03659,0.003974,False,False,False,neutral,1,medium,general,bad
+131,Бонус 317% + фрибет — не упусти шанс сорвать куш!,BY,gambling,0.05046,0.00563,True,True,False,fear,1,medium,bonus,bad
+132,Пока ты думаешь — другие забирают бонусы до 193$!,TR,casino,0.055025,0.005734,True,True,False,fear,1,medium,bonus,good
+133,50 фриспинов бесплатно — активируй и забирай выигрыш!,RU,betting,0.073189,0.006954,True,False,False,greed,3,medium,freespins,good
+134,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,UA,gambling,0.042033,0.005795,False,False,False,greed,1,medium,general,bad
+135,Не упусти! Бонус 299% сгорает через 3 часа!,TR,betting,0.05471,0.007915,True,True,False,fear,1,medium,bonus,good
+136,Пока ты думаешь — другие забирают бонусы до 489$!,PL,gambling,0.055701,0.00456,True,True,False,fear,1,medium,bonus,good
+137,Онлайн-казино с лицензией. Широкий выбор игр.,KZ,casino,0.026205,0.002106,False,False,False,neutral,1,short,licensed,bad
+138,Невероятные эмоции ждут — играй и выигрывай каждый день!,BY,gambling,0.041672,0.004422,False,False,False,excitement,2,medium,general,bad
+139,Почувствуй адреналин! Крути слоты и выигрывай до 137$!,DE,betting,0.034085,0.004007,True,False,False,excitement,2,medium,general,bad
+140,41+ довольных игроков не могут ошибаться. Начни выигрывать!,UA,gambling,0.041958,0.005936,True,False,True,neutral,3,medium,general,bad
+141,Забери свой бонус 53% — жми и начинай выигрывать прямо сейчас!,PL,gambling,0.058286,0.00714,True,True,False,greed,4,medium,bonus,good
+142,Пока ты думаешь — другие забирают бонусы до 467$!,DE,gambling,0.055202,0.007653,True,True,False,fear,1,medium,bonus,good
+143,Более 153 выплат за сегодня — убедись сам!,RU,casino,0.034643,0.004445,True,False,True,neutral,1,medium,fast_payouts,bad
+144,Почувствуй адреналин! Крути слоты и выигрывай до 314$!,TR,betting,0.040147,0.003324,True,False,False,excitement,2,medium,general,bad
+145,Бонус 262% + фрибет — не упусти шанс сорвать куш!,PL,gambling,0.03812,0.003308,True,True,False,fear,1,medium,bonus,bad
+146,Азарт на максимум! Начни игру и сорви джекпот до 101$!,UA,gambling,0.080224,0.006871,True,False,False,excitement,3,medium,jackpot,good
+147,Азарт на максимум! Начни игру и сорви джекпот до 436$!,PL,gambling,0.055048,0.004542,True,False,False,excitement,3,medium,jackpot,good
+148,Нас уже 186K — стань частью сообщества победителей!,PL,betting,0.033259,0.003363,True,False,True,neutral,1,medium,general,bad
+149,Ты теряешь деньги каждый день без кэшбэка 25%!,BY,gambling,0.047622,0.006592,True,False,False,fear,1,medium,cashback,bad
+150,Не упусти! Бонус 361% сгорает через 13 часа!,TR,gambling,0.060386,0.006712,True,True,False,fear,1,medium,bonus,good
+151,Только сегодня! Бонус 484% на первый депозит — успей забрать!,TR,betting,0.035712,0.003093,True,True,False,neutral,1,medium,bonus,bad
+152,Большой выбор слотов и настольных игр для любого вкуса.,KZ,casino,0.022647,0.003359,False,False,False,neutral,1,medium,general,bad
+153,Ты теряешь деньги каждый день без кэшбэка 471%!,PL,gambling,0.044424,0.005244,True,False,False,fear,1,medium,cashback,bad
+154,Без этого бонуса ты играешь в минус. Активируй 110% сейчас!,RU,betting,0.073109,0.007826,True,True,False,fear,2,medium,bonus,good
+155,Забери свой бонус 197% — жми и начинай выигрывать прямо сейчас!,UA,gambling,0.080084,0.011624,True,True,False,greed,4,medium,bonus,good
+156,Упустишь — пожалеешь! Только 46 бонусов осталось!,RU,betting,0.083909,0.007997,True,True,False,fear,1,medium,bonus,good
+157,Невероятные эмоции ждут — играй и выигрывай каждый день!,KZ,gambling,0.053906,0.004498,False,False,False,excitement,2,medium,general,good
+158,Забери свой бонус 466% — жми и начинай выигрывать прямо сейчас!,TR,betting,0.089573,0.010534,True,True,False,greed,4,medium,bonus,good
+159,Невероятные эмоции ждут — играй и выигрывай каждый день!,PL,betting,0.053115,0.007462,False,False,False,excitement,2,medium,general,good
+160,Азарт на максимум! Начни игру и сорви джекпот до 66$!,DE,betting,0.064903,0.007181,True,False,False,excitement,3,medium,jackpot,good
+161,Без этого бонуса ты играешь в минус. Активируй 191% сейчас!,PL,gambling,0.071343,0.00897,True,True,False,fear,2,medium,bonus,good
+162,Более 83 выплат за сегодня — убедись сам!,DE,casino,0.037857,0.005511,True,False,True,neutral,1,medium,fast_payouts,bad
+163,56+ довольных игроков не могут ошибаться. Начни выигрывать!,DE,gambling,0.037394,0.005596,True,False,True,neutral,3,medium,general,bad
+164,Последний шанс! 257 фриспинов ждут тебя — предложение истекает через час!,BY,gambling,0.035801,0.003435,True,True,False,neutral,1,medium,freespins,bad
+165,Невероятные эмоции ждут — играй и выигрывай каждый день!,DE,betting,0.044743,0.006388,False,False,False,excitement,2,medium,general,bad
+166,Нас уже 359K — стань частью сообщества победителей!,TR,gambling,0.038531,0.004237,True,False,True,neutral,1,medium,general,bad
+167,Почувствуй адреналин! Крути слоты и выигрывай до 428$!,BY,betting,0.055245,0.007018,True,False,False,excitement,2,medium,general,good
+168,Без этого бонуса ты играешь в минус. Активируй 353% сейчас!,PL,betting,0.061617,0.008106,True,True,False,fear,2,medium,bonus,good
+169,110 фриспинов бесплатно — активируй и забирай выигрыш!,BY,gambling,0.070041,0.008676,True,False,False,greed,3,medium,freespins,good
+170,Торопись! Бонус до 114$ — акция заканчивается сегодня!,DE,casino,0.029719,0.002699,True,True,False,neutral,1,medium,bonus,bad
+171,147 человек забрали бонус за последний час! Ты следующий?,UA,gambling,0.049433,0.004561,True,False,True,neutral,1,medium,bonus,bad
+172,Ставки на спорт — удобно и надёжно.,BY,betting,0.027659,0.002742,False,False,False,neutral,1,medium,general,bad
+173,66 человек забрали бонус за последний час! Ты следующий?,UA,gambling,0.034473,0.004645,True,False,True,neutral,1,medium,bonus,bad
+174,Невероятные эмоции ждут — играй и выигрывай каждый день!,BY,casino,0.035026,0.004814,False,False,False,excitement,2,medium,general,bad
+175,182 человек забрали бонус за последний час! Ты следующий?,UA,gambling,0.029651,0.003932,True,False,True,neutral,1,medium,bonus,bad
+176,94 человек забрали бонус за последний час! Ты следующий?,UA,gambling,0.044848,0.004747,True,False,True,neutral,1,medium,bonus,bad
+177,Нас уже 382K — стань частью сообщества победителей!,TR,gambling,0.02945,0.004415,True,False,True,neutral,1,medium,general,bad
+178,Получи до 222$ без риска! Регистрируйся и выводи!,TR,casino,0.054698,0.006141,True,False,False,greed,2,medium,general,good
+179,Торопись! Бонус до 10$ — акция заканчивается сегодня!,DE,casino,0.041467,0.00492,True,True,False,neutral,1,medium,bonus,bad
+180,Азарт на максимум! Начни игру и сорви джекпот до 494$!,BY,betting,0.062007,0.008641,True,False,False,excitement,3,medium,jackpot,good
+181,Упустишь — пожалеешь! Только 436 бонусов осталось!,DE,casino,0.049099,0.006012,True,True,False,fear,1,medium,bonus,bad
+182,Азарт на максимум! Начни игру и сорви джекпот до 217$!,TR,casino,0.060485,0.005558,True,False,False,excitement,3,medium,jackpot,good
+183,Более 31 выплат за сегодня — убедись сам!,UA,betting,0.038098,0.00356,True,False,True,neutral,1,medium,fast_payouts,bad
+184,Онлайн-казино с лицензией. Широкий выбор игр.,TR,gambling,0.020358,0.00293,False,False,False,neutral,1,short,licensed,bad
+185,Осталось 339 мест — зарегистрируйся прямо сейчас и получи фрибет!,DE,betting,0.05406,0.005326,True,True,False,greed,2,medium,freebet,good
+186,Последний шанс! 493 фриспинов ждут тебя — предложение истекает через час!,DE,betting,0.041993,0.004472,True,True,False,neutral,1,medium,freespins,bad
+187,Без этого бонуса ты играешь в минус. Активируй 108% сейчас!,DE,gambling,0.063025,0.00596,True,True,False,fear,2,medium,bonus,good
+188,Пока ты думаешь — другие забирают бонусы до 365$!,RU,gambling,0.050387,0.005341,True,True,False,fear,1,medium,bonus,bad
+189,Уже 100+ игроков выиграли на этой неделе — присоединяйся!,UA,betting,0.04125,0.005293,True,False,True,neutral,1,medium,general,bad
+190,Успей за 84 минут! Эксклюзивный кэшбэк только для новых игроков!,KZ,gambling,0.052569,0.006982,True,True,True,neutral,1,medium,cashback,bad
+191,Последний шанс! 235 фриспинов ждут тебя — предложение истекает через час!,TR,casino,0.04659,0.006323,True,True,False,neutral,1,medium,freespins,bad
+192,270+ довольных игроков не могут ошибаться. Начни выигрывать!,UA,gambling,0.045311,0.004053,True,False,True,neutral,3,medium,general,bad
+193,Пока ты думаешь — другие забирают бонусы до 202$!,RU,gambling,0.063953,0.005841,True,True,False,fear,1,medium,bonus,good
+194,Букмекерская контора с быстрыми выплатами.,UA,betting,0.02628,0.00379,False,False,False,neutral,1,short,fast_payouts,bad
+195,Ты теряешь деньги каждый день без кэшбэка 424%!,PL,gambling,0.04397,0.004459,True,False,False,fear,1,medium,cashback,bad
+196,Торопись! Бонус до 270$ — акция заканчивается сегодня!,UA,gambling,0.055324,0.007247,True,True,False,neutral,1,medium,bonus,good
+197,Забери свой бонус 438% — жми и начинай выигрывать прямо сейчас!,TR,betting,0.066848,0.005899,True,True,False,greed,4,medium,bonus,good
+198,Ты теряешь деньги каждый день без кэшбэка 156%!,BY,casino,0.051807,0.005577,True,False,False,fear,1,medium,cashback,bad
+199,Большой выбор слотов и настольных игр для любого вкуса.,DE,gambling,0.02432,0.0031,False,False,False,neutral,1,medium,general,bad
+200,Нас уже 398K — стань частью сообщества победителей!,UA,gambling,0.049552,0.007148,True,False,True,neutral,1,medium,general,bad
+201,Ты теряешь деньги каждый день без кэшбэка 177%!,UA,betting,0.052962,0.004585,True,False,False,fear,1,medium,cashback,bad
+202,Драйв начинается здесь! Делай ставку и побеждай!,PL,casino,0.042596,0.005757,False,False,False,excitement,3,medium,general,bad
+203,Получи до 490$ без риска! Регистрируйся и выводи!,PL,betting,0.04941,0.005118,True,False,False,greed,2,medium,general,bad
+204,Более 149 выплат за сегодня — убедись сам!,TR,gambling,0.030994,0.004024,True,False,True,neutral,1,medium,fast_payouts,bad
+205,Невероятные эмоции ждут — играй и выигрывай каждый день!,KZ,gambling,0.049694,0.006985,False,False,False,excitement,2,medium,general,bad
+206,Онлайн-казино с лицензией. Широкий выбор игр.,RU,gambling,0.027905,0.002332,False,False,False,neutral,1,short,licensed,bad
+207,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,KZ,gambling,0.041682,0.003965,False,False,False,greed,1,medium,general,bad
+208,Драйв начинается здесь! Делай ставку и побеждай!,TR,betting,0.061947,0.005956,False,False,False,excitement,3,medium,general,good
+209,Осталось 479 мест — зарегистрируйся прямо сейчас и получи фрибет!,KZ,gambling,0.094561,0.010717,True,True,False,greed,2,medium,freebet,good
+210,Последний шанс! 33 фриспинов ждут тебя — предложение истекает через час!,PL,betting,0.039202,0.004095,True,True,False,neutral,1,medium,freespins,bad
+211,Почувствуй адреналин! Крути слоты и выигрывай до 73$!,TR,betting,0.049419,0.005103,True,False,False,excitement,2,medium,general,bad
+212,Онлайн-казино с лицензией. Широкий выбор игр.,TR,betting,0.024348,0.002153,False,False,False,neutral,1,short,licensed,bad
+213,Только сегодня! Бонус 494% на первый депозит — успей забрать!,KZ,gambling,0.046114,0.006189,True,True,False,neutral,1,medium,bonus,bad
+214,Торопись! Бонус до 206$ — акция заканчивается сегодня!,RU,betting,0.043984,0.004896,True,True,False,neutral,1,medium,bonus,bad
+215,Забери свой бонус 235% — жми и начинай выигрывать прямо сейчас!,PL,betting,0.080413,0.00782,True,True,False,greed,4,medium,bonus,good
+216,Большой выбор слотов и настольных игр для любого вкуса.,UA,betting,0.02978,0.004168,False,False,False,neutral,1,medium,general,bad
+217,Успей за 383 минут! Эксклюзивный кэшбэк только для новых игроков!,TR,gambling,0.050075,0.006,True,True,True,neutral,1,medium,cashback,bad
+218,171 человек забрали бонус за последний час! Ты следующий?,KZ,gambling,0.038141,0.003412,True,False,True,neutral,1,medium,bonus,bad
+219,Букмекерская контора с быстрыми выплатами.,KZ,casino,0.019846,0.002208,False,False,False,neutral,1,short,fast_payouts,bad
+220,Последний шанс! 219 фриспинов ждут тебя — предложение истекает через час!,PL,gambling,0.062103,0.005999,True,True,False,neutral,1,medium,freespins,good
+221,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,DE,gambling,0.029346,0.003373,False,False,False,greed,1,medium,general,bad
+222,Торопись! Бонус до 361$ — акция заканчивается сегодня!,DE,gambling,0.033928,0.004466,True,True,False,neutral,1,medium,bonus,bad
+223,Последний шанс! 259 фриспинов ждут тебя — предложение истекает через час!,RU,betting,0.067871,0.010001,True,True,False,neutral,1,medium,freespins,good
+224,Драйв начинается здесь! Делай ставку и побеждай!,BY,casino,0.052306,0.004533,False,False,False,excitement,3,medium,general,bad
+225,Торопись! Бонус до 217$ — акция заканчивается сегодня!,PL,gambling,0.039722,0.003607,True,True,False,neutral,1,medium,bonus,bad
+226,Успей за 483 минут! Эксклюзивный кэшбэк только для новых игроков!,DE,casino,0.045611,0.006074,True,True,True,neutral,1,medium,cashback,bad
+227,453 человек забрали бонус за последний час! Ты следующий?,UA,gambling,0.032587,0.003118,True,False,True,neutral,1,medium,bonus,bad
+228,Ставки на спорт — удобно и надёжно.,BY,betting,0.02701,0.003262,False,False,False,neutral,1,medium,general,bad
+229,Не упусти! Бонус 495% сгорает через 3 часа!,DE,betting,0.061844,0.00583,True,True,False,fear,1,medium,bonus,good
+230,335 фриспинов бесплатно — активируй и забирай выигрыш!,BY,gambling,0.06874,0.010242,True,False,False,greed,3,medium,freespins,good
+231,Без этого бонуса ты играешь в минус. Активируй 453% сейчас!,BY,gambling,0.066172,0.007891,True,True,False,fear,2,medium,bonus,good
+232,Нас уже 289K — стань частью сообщества победителей!,DE,gambling,0.030287,0.003124,True,False,True,neutral,1,medium,general,bad
+233,Последний шанс! 96 фриспинов ждут тебя — предложение истекает через час!,BY,casino,0.045366,0.005389,True,True,False,neutral,1,medium,freespins,bad
+234,Уже 488+ игроков выиграли на этой неделе — присоединяйся!,DE,betting,0.031989,0.002705,True,False,True,neutral,1,medium,general,bad
+235,Успей за 292 минут! Эксклюзивный кэшбэк только для новых игроков!,RU,casino,0.071858,0.007976,True,True,True,neutral,1,medium,cashback,good
+236,Забери свой бонус 227% — жми и начинай выигрывать прямо сейчас!,RU,betting,0.101464,0.014537,True,True,False,greed,4,medium,bonus,good
+237,Невероятные эмоции ждут — играй и выигрывай каждый день!,KZ,gambling,0.041496,0.005425,False,False,False,excitement,2,medium,general,bad
+238,Нас уже 479K — стань частью сообщества победителей!,UA,betting,0.053106,0.005586,True,False,True,neutral,1,medium,general,good
+239,Более 25 выплат за сегодня — убедись сам!,DE,gambling,0.024992,0.003126,True,False,True,neutral,1,medium,fast_payouts,bad
+240,Более 316 выплат за сегодня — убедись сам!,KZ,gambling,0.053493,0.006058,True,False,True,neutral,1,medium,fast_payouts,good
+241,Невероятные эмоции ждут — играй и выигрывай каждый день!,PL,betting,0.03484,0.003897,False,False,False,excitement,2,medium,general,bad
+242,Последний шанс! 44 фриспинов ждут тебя — предложение истекает через час!,RU,betting,0.068911,0.009997,True,True,False,neutral,1,medium,freespins,good
+243,Осталось 462 мест — зарегистрируйся прямо сейчас и получи фрибет!,BY,gambling,0.072056,0.010334,True,True,False,greed,2,medium,freebet,good
+244,98+ довольных игроков не могут ошибаться. Начни выигрывать!,TR,betting,0.052777,0.006493,True,False,True,neutral,3,medium,general,bad
+245,Получи до 287$ без риска! Регистрируйся и выводи!,BY,betting,0.050249,0.006587,True,False,False,greed,2,medium,general,bad
+246,263+ довольных игроков не могут ошибаться. Начни выигрывать!,UA,casino,0.043154,0.005667,True,False,True,neutral,3,medium,general,bad
+247,Бонус 89% + фрибет — не упусти шанс сорвать куш!,RU,betting,0.087829,0.00835,True,True,False,fear,1,medium,bonus,good
+248,Без этого бонуса ты играешь в минус. Активируй 329% сейчас!,UA,gambling,0.060661,0.008788,True,True,False,fear,2,medium,bonus,good
+249,Уже 347+ игроков выиграли на этой неделе — присоединяйся!,RU,gambling,0.037868,0.00393,True,False,True,neutral,1,medium,general,bad
+250,Уже 209+ игроков выиграли на этой неделе — присоединяйся!,TR,gambling,0.030149,0.004197,True,False,True,neutral,1,medium,general,bad
+251,Испытай удачу — ставь на спорт и получи заряд эмоций!,DE,betting,0.032138,0.004035,False,False,False,greed,2,medium,general,bad
+252,Уже 178+ игроков выиграли на этой неделе — присоединяйся!,BY,casino,0.037674,0.004827,True,False,True,neutral,1,medium,general,bad
+253,Последний шанс! 145 фриспинов ждут тебя — предложение истекает через час!,RU,gambling,0.050602,0.005039,True,True,False,neutral,1,medium,freespins,bad
+254,Забери свой бонус 343% — жми и начинай выигрывать прямо сейчас!,RU,gambling,0.079134,0.006407,True,True,False,greed,4,medium,bonus,good
+255,229 человек забрали бонус за последний час! Ты следующий?,BY,gambling,0.039796,0.004837,True,False,True,neutral,1,medium,bonus,bad
+256,Только сегодня! Бонус 317% на первый депозит — успей забрать!,KZ,betting,0.040081,0.005403,True,True,False,neutral,1,medium,bonus,bad
+257,Ты теряешь деньги каждый день без кэшбэка 14%!,DE,betting,0.040487,0.005471,True,False,False,fear,1,medium,cashback,bad
+258,Невероятные эмоции ждут — играй и выигрывай каждый день!,PL,gambling,0.052991,0.004396,False,False,False,excitement,2,medium,general,bad
+259,Бонус 274% + фрибет — не упусти шанс сорвать куш!,KZ,gambling,0.066851,0.007466,True,True,False,fear,1,medium,bonus,good
+260,Успей за 257 минут! Эксклюзивный кэшбэк только для новых игроков!,UA,betting,0.060528,0.008848,True,True,True,neutral,1,medium,cashback,good
+261,Более 253 выплат за сегодня — убедись сам!,TR,gambling,0.040032,0.005924,True,False,True,neutral,1,medium,fast_payouts,bad
+262,Ты теряешь деньги каждый день без кэшбэка 440%!,RU,betting,0.041263,0.004108,True,False,False,fear,1,medium,cashback,bad
+263,Без этого бонуса ты играешь в минус. Активируй 196% сейчас!,KZ,gambling,0.080531,0.006618,True,True,False,fear,2,medium,bonus,good
+264,Удвой депозит до 282$! Жми на кнопку — деньги ждут!,BY,gambling,0.073341,0.009332,True,False,False,greed,3,medium,deposit_bonus,good
+265,Нас уже 179K — стань частью сообщества победителей!,KZ,casino,0.036162,0.005051,True,False,True,neutral,1,medium,general,bad
+266,Последний шанс! 135 фриспинов ждут тебя — предложение истекает через час!,KZ,gambling,0.059062,0.00677,True,True,False,neutral,1,medium,freespins,good
+267,Успей за 121 минут! Эксклюзивный кэшбэк только для новых игроков!,BY,gambling,0.043726,0.005672,True,True,True,neutral,1,medium,cashback,bad
+268,Получи до 343$ без риска! Регистрируйся и выводи!,DE,gambling,0.050173,0.005837,True,False,False,greed,2,medium,general,bad
+269,Невероятные эмоции ждут — играй и выигрывай каждый день!,DE,gambling,0.035468,0.005141,False,False,False,excitement,2,medium,general,bad
+270,Испытай удачу — ставь на спорт и получи заряд эмоций!,PL,gambling,0.033246,0.003219,False,False,False,greed,2,medium,general,bad
+271,19+ довольных игроков не могут ошибаться. Начни выигрывать!,KZ,gambling,0.048522,0.005033,True,False,True,neutral,3,medium,general,bad
+272,Удвой депозит до 165$! Жми на кнопку — деньги ждут!,UA,gambling,0.050231,0.006679,True,False,False,greed,3,medium,deposit_bonus,bad
+273,Ты теряешь деньги каждый день без кэшбэка 464%!,PL,gambling,0.036071,0.00484,True,False,False,fear,1,medium,cashback,bad
+274,Торопись! Бонус до 367$ — акция заканчивается сегодня!,BY,betting,0.049974,0.006819,True,True,False,neutral,1,medium,bonus,bad
+275,Уже 464+ игроков выиграли на этой неделе — присоединяйся!,DE,betting,0.028724,0.003617,True,False,True,neutral,1,medium,general,bad
+276,Только сегодня! Бонус 335% на первый депозит — успей забрать!,RU,gambling,0.048168,0.004183,True,True,False,neutral,1,medium,bonus,bad
+277,208+ довольных игроков не могут ошибаться. Начни выигрывать!,DE,gambling,0.041765,0.004584,True,False,True,neutral,3,medium,general,bad
+278,Успей за 94 минут! Эксклюзивный кэшбэк только для новых игроков!,RU,betting,0.066581,0.007273,True,True,True,neutral,1,medium,cashback,good
+279,252 человек забрали бонус за последний час! Ты следующий?,BY,casino,0.042402,0.005838,True,False,True,neutral,1,medium,bonus,bad
+280,Ты теряешь деньги каждый день без кэшбэка 335%!,UA,casino,0.048207,0.006685,True,False,False,fear,1,medium,cashback,bad
+281,Успей за 264 минут! Эксклюзивный кэшбэк только для новых игроков!,UA,gambling,0.056797,0.005002,True,True,True,neutral,1,medium,cashback,good
+282,193 фриспинов бесплатно — активируй и забирай выигрыш!,UA,gambling,0.052063,0.007139,True,False,False,greed,3,medium,freespins,bad
+283,Последний шанс! 257 фриспинов ждут тебя — предложение истекает через час!,RU,gambling,0.044421,0.006336,True,True,False,neutral,1,medium,freespins,bad
+284,Уже 132+ игроков выиграли на этой неделе — присоединяйся!,UA,gambling,0.037906,0.003447,True,False,True,neutral,1,medium,general,bad
+285,Торопись! Бонус до 499$ — акция заканчивается сегодня!,PL,betting,0.049172,0.004236,True,True,False,neutral,1,medium,bonus,bad
+286,Не упусти! Бонус 293% сгорает через 22 часа!,BY,gambling,0.055715,0.006222,True,True,False,fear,1,medium,bonus,good
+287,Удвой депозит до 97$! Жми на кнопку — деньги ждут!,DE,gambling,0.055011,0.004659,True,False,False,greed,3,medium,deposit_bonus,good
+288,Почувствуй адреналин! Крути слоты и выигрывай до 60$!,TR,gambling,0.052333,0.004531,True,False,False,excitement,2,medium,general,bad
+289,Без этого бонуса ты играешь в минус. Активируй 375% сейчас!,DE,betting,0.070244,0.008261,True,True,False,fear,2,medium,bonus,good
+290,Удвой депозит до 418$! Жми на кнопку — деньги ждут!,TR,gambling,0.059144,0.006329,True,False,False,greed,3,medium,deposit_bonus,good
+291,Более 133 выплат за сегодня — убедись сам!,UA,betting,0.037014,0.004961,True,False,True,neutral,1,medium,fast_payouts,bad
+292,Осталось 147 мест — зарегистрируйся прямо сейчас и получи фрибет!,PL,gambling,0.073187,0.009921,True,True,False,greed,2,medium,freebet,good
+293,Торопись! Бонус до 216$ — акция заканчивается сегодня!,KZ,casino,0.070507,0.008414,True,True,False,neutral,1,medium,bonus,good
+294,Только сегодня! Бонус 353% на первый депозит — успей забрать!,PL,gambling,0.035128,0.004357,True,True,False,neutral,1,medium,bonus,bad
+295,Драйв начинается здесь! Делай ставку и побеждай!,TR,betting,0.036787,0.003037,False,False,False,excitement,3,medium,general,bad
+296,Последний шанс! 355 фриспинов ждут тебя — предложение истекает через час!,DE,casino,0.046087,0.004294,True,True,False,neutral,1,medium,freespins,bad
+297,Получи до 352$ без риска! Регистрируйся и выводи!,TR,casino,0.052651,0.007029,True,False,False,greed,2,medium,general,bad
+298,Только сегодня! Бонус 139% на первый депозит — успей забрать!,UA,betting,0.042649,0.00433,True,True,False,neutral,1,medium,bonus,bad
+299,Более 22 выплат за сегодня — убедись сам!,PL,betting,0.039572,0.005794,True,False,True,neutral,1,medium,fast_payouts,bad
+300,Более 107 выплат за сегодня — убедись сам!,DE,betting,0.028553,0.003327,True,False,True,neutral,1,medium,fast_payouts,bad
+301,Удвой депозит до 300$! Жми на кнопку — деньги ждут!,BY,betting,0.058182,0.006221,True,False,False,greed,3,medium,deposit_bonus,good
+302,Только сегодня! Бонус 381% на первый депозит — успей забрать!,TR,gambling,0.040993,0.004704,True,True,False,neutral,1,medium,bonus,bad
+303,Без этого бонуса ты играешь в минус. Активируй 19% сейчас!,PL,betting,0.057058,0.008503,True,True,False,fear,2,medium,bonus,good
+304,63 человек забрали бонус за последний час! Ты следующий?,RU,betting,0.055564,0.00591,True,False,True,neutral,1,medium,bonus,good
+305,Ставки на спорт — удобно и надёжно.,KZ,casino,0.030015,0.004225,False,False,False,neutral,1,medium,general,bad
+306,Ставки на спорт — удобно и надёжно.,KZ,gambling,0.022425,0.002061,False,False,False,neutral,1,medium,general,bad
+307,Последний шанс! 364 фриспинов ждут тебя — предложение истекает через час!,PL,gambling,0.061546,0.008523,True,True,False,neutral,1,medium,freespins,good
+308,Только сегодня! Бонус 152% на первый депозит — успей забрать!,KZ,betting,0.032705,0.003872,True,True,False,neutral,1,medium,bonus,bad
+309,Удвой депозит до 398$! Жми на кнопку — деньги ждут!,DE,gambling,0.06398,0.005791,True,False,False,greed,3,medium,deposit_bonus,good
+310,Азарт на максимум! Начни игру и сорви джекпот до 472$!,BY,gambling,0.057598,0.00729,True,False,False,excitement,3,medium,jackpot,good
+311,Букмекерская контора с быстрыми выплатами.,TR,gambling,0.029093,0.003389,False,False,False,neutral,1,short,fast_payouts,bad
+312,Нас уже 215K — стань частью сообщества победителей!,KZ,gambling,0.029104,0.002634,True,False,True,neutral,1,medium,general,bad
+313,Ты теряешь деньги каждый день без кэшбэка 302%!,DE,gambling,0.033078,0.003196,True,False,False,fear,1,medium,cashback,bad
+314,Забери свой бонус 286% — жми и начинай выигрывать прямо сейчас!,RU,gambling,0.153595,0.01277,True,True,False,greed,4,medium,bonus,good
+315,Онлайн-казино с лицензией. Широкий выбор игр.,KZ,gambling,0.022602,0.002377,False,False,False,neutral,1,short,licensed,bad
+316,Почувствуй адреналин! Крути слоты и выигрывай до 155$!,PL,gambling,0.049933,0.004657,True,False,False,excitement,2,medium,general,bad
+317,Осталось 278 мест — зарегистрируйся прямо сейчас и получи фрибет!,BY,gambling,0.089083,0.012151,True,True,False,greed,2,medium,freebet,good
+318,264 человек забрали бонус за последний час! Ты следующий?,PL,betting,0.044609,0.005698,True,False,True,neutral,1,medium,bonus,bad
+319,Пока ты думаешь — другие забирают бонусы до 210$!,TR,gambling,0.066156,0.007736,True,True,False,fear,1,medium,bonus,good
+320,Только сегодня! Бонус 425% на первый депозит — успей забрать!,BY,casino,0.04216,0.003659,True,True,False,neutral,1,medium,bonus,bad
+321,Без этого бонуса ты играешь в минус. Активируй 363% сейчас!,UA,casino,0.069184,0.009546,True,True,False,fear,2,medium,bonus,good
+322,Упустишь — пожалеешь! Только 439 бонусов осталось!,RU,gambling,0.06286,0.007614,True,True,False,fear,1,medium,bonus,good
+323,Драйв начинается здесь! Делай ставку и побеждай!,UA,gambling,0.034231,0.003123,False,False,False,excitement,3,medium,general,bad
+324,Осталось 346 мест — зарегистрируйся прямо сейчас и получи фрибет!,DE,betting,0.064669,0.007004,True,True,False,greed,2,medium,freebet,good
+325,Невероятные эмоции ждут — играй и выигрывай каждый день!,DE,betting,0.041285,0.005157,False,False,False,excitement,2,medium,general,bad
+326,Более 399 выплат за сегодня — убедись сам!,PL,betting,0.028984,0.002873,True,False,True,neutral,1,medium,fast_payouts,bad
+327,Азарт на максимум! Начни игру и сорви джекпот до 436$!,DE,betting,0.058841,0.005621,True,False,False,excitement,3,medium,jackpot,good
+328,Торопись! Бонус до 450$ — акция заканчивается сегодня!,PL,betting,0.039803,0.004428,True,True,False,neutral,1,medium,bonus,bad
+329,Не упусти! Бонус 362% сгорает через 9 часа!,DE,betting,0.048905,0.004573,True,True,False,fear,1,medium,bonus,bad
+330,Осталось 459 мест — зарегистрируйся прямо сейчас и получи фрибет!,BY,gambling,0.062203,0.006449,True,True,False,greed,2,medium,freebet,good
+331,Большой выбор слотов и настольных игр для любого вкуса.,RU,betting,0.025915,0.002274,False,False,False,neutral,1,medium,general,bad
+332,Упустишь — пожалеешь! Только 450 бонусов осталось!,DE,gambling,0.047478,0.006735,True,True,False,fear,1,medium,bonus,bad
+333,Азарт на максимум! Начни игру и сорви джекпот до 277$!,PL,betting,0.079826,0.006575,True,False,False,excitement,3,medium,jackpot,good
+334,Невероятные эмоции ждут — играй и выигрывай каждый день!,UA,casino,0.048359,0.004807,False,False,False,excitement,2,medium,general,bad
+335,Последний шанс! 470 фриспинов ждут тебя — предложение истекает через час!,DE,gambling,0.047507,0.005196,True,True,False,neutral,1,medium,freespins,bad
+336,Не упусти! Бонус 129% сгорает через 3 часа!,TR,betting,0.057396,0.005502,True,True,False,fear,1,medium,bonus,good
+337,Азарт на максимум! Начни игру и сорви джекпот до 109$!,TR,gambling,0.061544,0.007621,True,False,False,excitement,3,medium,jackpot,good
+338,218+ довольных игроков не могут ошибаться. Начни выигрывать!,UA,betting,0.045204,0.005614,True,False,True,neutral,3,medium,general,bad
+339,Невероятные эмоции ждут — играй и выигрывай каждый день!,BY,gambling,0.040097,0.005897,False,False,False,excitement,2,medium,general,bad
+340,Пока ты думаешь — другие забирают бонусы до 89$!,PL,casino,0.050336,0.005814,True,True,False,fear,1,medium,bonus,bad
+341,171 фриспинов бесплатно — активируй и забирай выигрыш!,RU,gambling,0.070486,0.010425,True,False,False,greed,3,medium,freespins,good
+342,Забери свой бонус 308% — жми и начинай выигрывать прямо сейчас!,UA,casino,0.128653,0.01609,True,True,False,greed,4,medium,bonus,good
+343,Ты теряешь деньги каждый день без кэшбэка 144%!,DE,betting,0.036287,0.004081,True,False,False,fear,1,medium,cashback,bad
+344,Не упусти! Бонус 408% сгорает через 15 часа!,PL,betting,0.061573,0.007529,True,True,False,fear,1,medium,bonus,good
+345,23 фриспинов бесплатно — активируй и забирай выигрыш!,KZ,betting,0.07671,0.006222,True,False,False,greed,3,medium,freespins,good
+346,Драйв начинается здесь! Делай ставку и побеждай!,RU,betting,0.063308,0.007481,False,False,False,excitement,3,medium,general,good
+347,Испытай удачу — ставь на спорт и получи заряд эмоций!,UA,casino,0.044732,0.006197,False,False,False,greed,2,medium,general,bad
+348,Забери свой бонус 361% — жми и начинай выигрывать прямо сейчас!,TR,gambling,0.097081,0.008894,True,True,False,greed,4,medium,bonus,good
+349,Забери свой бонус 202% — жми и начинай выигрывать прямо сейчас!,UA,betting,0.119056,0.017136,True,True,False,greed,4,medium,bonus,good
+350,Забери свой бонус 187% — жми и начинай выигрывать прямо сейчас!,DE,gambling,0.093889,0.011897,True,True,False,greed,4,medium,bonus,good
+351,Получи до 377$ без риска! Регистрируйся и выводи!,BY,betting,0.074706,0.007193,True,False,False,greed,2,medium,general,good
+352,Букмекерская контора с быстрыми выплатами.,RU,gambling,0.024086,0.003308,False,False,False,neutral,1,short,fast_payouts,bad
+353,Удвой депозит до 387$! Жми на кнопку — деньги ждут!,BY,betting,0.070101,0.009833,True,False,False,greed,3,medium,deposit_bonus,good
+354,Азарт на максимум! Начни игру и сорви джекпот до 457$!,UA,betting,0.074654,0.007166,True,False,False,excitement,3,medium,jackpot,good
+355,Без этого бонуса ты играешь в минус. Активируй 286% сейчас!,PL,gambling,0.063427,0.006146,True,True,False,fear,2,medium,bonus,good
+356,Не упусти! Бонус 295% сгорает через 12 часа!,KZ,betting,0.074499,0.008195,True,True,False,fear,1,medium,bonus,good
+357,Получи до 107$ без риска! Регистрируйся и выводи!,UA,betting,0.065678,0.008748,True,False,False,greed,2,medium,general,good
+358,Пока ты думаешь — другие забирают бонусы до 145$!,DE,betting,0.064925,0.008824,True,True,False,fear,1,medium,bonus,good
+359,Почувствуй адреналин! Крути слоты и выигрывай до 423$!,RU,gambling,0.066794,0.008825,True,False,False,excitement,2,medium,general,good
+360,Последний шанс! 455 фриспинов ждут тебя — предложение истекает через час!,TR,betting,0.052649,0.005044,True,True,False,neutral,1,medium,freespins,bad
+361,Упустишь — пожалеешь! Только 200 бонусов осталось!,KZ,casino,0.054467,0.00777,True,True,False,fear,1,medium,bonus,good
+362,Почувствуй адреналин! Крути слоты и выигрывай до 370$!,KZ,gambling,0.064878,0.007221,True,False,False,excitement,2,medium,general,good
+363,237 фриспинов бесплатно — активируй и забирай выигрыш!,UA,gambling,0.072735,0.009983,True,False,False,greed,3,medium,freespins,good
+364,Букмекерская контора с быстрыми выплатами.,PL,gambling,0.017677,0.00247,False,False,False,neutral,1,short,fast_payouts,bad
+365,Только сегодня! Бонус 292% на первый депозит — успей забрать!,UA,betting,0.042625,0.004171,True,True,False,neutral,1,medium,bonus,bad
+366,85 фриспинов бесплатно — активируй и забирай выигрыш!,UA,gambling,0.06242,0.009306,True,False,False,greed,3,medium,freespins,good
+367,Не упусти! Бонус 85% сгорает через 19 часа!,BY,betting,0.061916,0.007938,True,True,False,fear,1,medium,bonus,good
+368,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,DE,betting,0.030817,0.003996,False,False,False,greed,1,medium,general,bad
+369,446 фриспинов бесплатно — активируй и забирай выигрыш!,RU,gambling,0.070573,0.010448,True,False,False,greed,3,medium,freespins,good
+370,Осталось 152 мест — зарегистрируйся прямо сейчас и получи фрибет!,UA,casino,0.072011,0.008297,True,True,False,greed,2,medium,freebet,good
+371,Пока ты думаешь — другие забирают бонусы до 9$!,BY,betting,0.05427,0.0059,True,True,False,fear,1,medium,bonus,good
+372,Забери свой бонус 129% — жми и начинай выигрывать прямо сейчас!,BY,gambling,0.086842,0.012375,True,True,False,greed,4,medium,bonus,good
+373,Торопись! Бонус до 151$ — акция заканчивается сегодня!,TR,gambling,0.046388,0.0043,True,True,False,neutral,1,medium,bonus,bad
+374,Последний шанс! 130 фриспинов ждут тебя — предложение истекает через час!,BY,gambling,0.048417,0.004466,True,True,False,neutral,1,medium,freespins,bad
+375,Большой выбор слотов и настольных игр для любого вкуса.,UA,gambling,0.021549,0.002005,False,False,False,neutral,1,medium,general,bad
+376,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,DE,gambling,0.043228,0.005649,False,False,False,greed,1,medium,general,bad
+377,Не упусти! Бонус 43% сгорает через 14 часа!,BY,casino,0.076347,0.009711,True,True,False,fear,1,medium,bonus,good
+378,Драйв начинается здесь! Делай ставку и побеждай!,TR,gambling,0.038122,0.003318,False,False,False,excitement,3,medium,general,bad
+379,Уже 39+ игроков выиграли на этой неделе — присоединяйся!,PL,gambling,0.039203,0.005856,True,False,True,neutral,1,medium,general,bad
+380,Уже 151+ игроков выиграли на этой неделе — присоединяйся!,TR,betting,0.038718,0.004059,True,False,True,neutral,1,medium,general,bad
+381,Драйв начинается здесь! Делай ставку и побеждай!,PL,betting,0.041836,0.003689,False,False,False,excitement,3,medium,general,bad
+382,Онлайн-казино с лицензией. Широкий выбор игр.,UA,casino,0.026735,0.002544,False,False,False,neutral,1,short,licensed,bad
+383,Ставки на спорт — удобно и надёжно.,DE,betting,0.019592,0.002096,False,False,False,neutral,1,medium,general,bad
+384,Азарт на максимум! Начни игру и сорви джекпот до 355$!,BY,gambling,0.048437,0.006745,True,False,False,excitement,3,medium,jackpot,bad
+385,Драйв начинается здесь! Делай ставку и побеждай!,RU,gambling,0.044298,0.005933,False,False,False,excitement,3,medium,general,bad
+386,Бонус 7% + фрибет — не упусти шанс сорвать куш!,KZ,casino,0.05494,0.005337,True,True,False,fear,1,medium,bonus,good
+387,Нас уже 366K — стань частью сообщества победителей!,PL,betting,0.037877,0.003136,True,False,True,neutral,1,medium,general,bad
+388,Забери свой бонус 239% — жми и начинай выигрывать прямо сейчас!,UA,casino,0.077512,0.011211,True,True,False,greed,4,medium,bonus,good
+389,Более 340 выплат за сегодня — убедись сам!,DE,gambling,0.03473,0.003909,True,False,True,neutral,1,medium,fast_payouts,bad
+390,415 человек забрали бонус за последний час! Ты следующий?,RU,casino,0.05202,0.005847,True,False,True,neutral,1,medium,bonus,bad
+391,Букмекерская контора с быстрыми выплатами.,UA,betting,0.021497,0.002127,False,False,False,neutral,1,short,fast_payouts,bad
+392,Испытай удачу — ставь на спорт и получи заряд эмоций!,PL,gambling,0.038298,0.004225,False,False,False,greed,2,medium,general,bad
+393,Получи до 124$ без риска! Регистрируйся и выводи!,BY,betting,0.068265,0.005768,True,False,False,greed,2,medium,general,good
+394,Торопись! Бонус до 360$ — акция заканчивается сегодня!,UA,betting,0.043807,0.004488,True,True,False,neutral,1,medium,bonus,bad
+395,Ставки на спорт — удобно и надёжно.,BY,gambling,0.031055,0.00411,False,False,False,neutral,1,medium,general,bad
+396,Последний шанс! 490 фриспинов ждут тебя — предложение истекает через час!,PL,gambling,0.038099,0.004154,True,True,False,neutral,1,medium,freespins,bad
+397,Успей за 206 минут! Эксклюзивный кэшбэк только для новых игроков!,DE,betting,0.036559,0.002977,True,True,True,neutral,1,medium,cashback,bad
+398,Удвой депозит до 461$! Жми на кнопку — деньги ждут!,BY,gambling,0.056607,0.006119,True,False,False,greed,3,medium,deposit_bonus,good
+399,Драйв начинается здесь! Делай ставку и побеждай!,KZ,gambling,0.038937,0.004613,False,False,False,excitement,3,medium,general,bad
+400,236 человек забрали бонус за последний час! Ты следующий?,UA,gambling,0.042356,0.00371,True,False,True,neutral,1,medium,bonus,bad
+401,Только сегодня! Бонус 75% на первый депозит — успей забрать!,PL,gambling,0.063972,0.005514,True,True,False,neutral,1,medium,bonus,good
+402,Бонус 203% + фрибет — не упусти шанс сорвать куш!,TR,casino,0.058271,0.00846,True,True,False,fear,1,medium,bonus,good
+403,Последний шанс! 498 фриспинов ждут тебя — предложение истекает через час!,KZ,betting,0.05964,0.008624,True,True,False,neutral,1,medium,freespins,good
+404,307 фриспинов бесплатно — активируй и забирай выигрыш!,KZ,gambling,0.05832,0.007415,True,False,False,greed,3,medium,freespins,good
+405,Удвой депозит до 80$! Жми на кнопку — деньги ждут!,RU,casino,0.075935,0.009843,True,False,False,greed,3,medium,deposit_bonus,good
+406,Большой выбор слотов и настольных игр для любого вкуса.,UA,casino,0.027442,0.00349,False,False,False,neutral,1,medium,general,bad
+407,Только сегодня! Бонус 296% на первый депозит — успей забрать!,PL,gambling,0.036177,0.004399,True,True,False,neutral,1,medium,bonus,bad
+408,Испытай удачу — ставь на спорт и получи заряд эмоций!,PL,betting,0.041457,0.005252,False,False,False,greed,2,medium,general,bad
+409,Получи до 162$ без риска! Регистрируйся и выводи!,DE,gambling,0.048444,0.007221,True,False,False,greed,2,medium,general,bad
+410,Ты теряешь деньги каждый день без кэшбэка 68%!,RU,casino,0.05035,0.005502,True,False,False,fear,1,medium,cashback,bad
+411,Нас уже 399K — стань частью сообщества победителей!,RU,betting,0.050121,0.004529,True,False,True,neutral,1,medium,general,bad
+412,Бонус 398% + фрибет — не упусти шанс сорвать куш!,TR,betting,0.054289,0.005285,True,True,False,fear,1,medium,bonus,good
+413,Не упусти! Бонус 399% сгорает через 16 часа!,PL,gambling,0.053329,0.006293,True,True,False,fear,1,medium,bonus,good
+414,Удвой депозит до 419$! Жми на кнопку — деньги ждут!,TR,casino,0.070234,0.007925,True,False,False,greed,3,medium,deposit_bonus,good
+415,Испытай удачу — ставь на спорт и получи заряд эмоций!,UA,gambling,0.046328,0.006364,False,False,False,greed,2,medium,general,bad
+416,Более 340 выплат за сегодня — убедись сам!,TR,gambling,0.029427,0.002927,True,False,True,neutral,1,medium,fast_payouts,bad
+417,Торопись! Бонус до 304$ — акция заканчивается сегодня!,DE,gambling,0.032827,0.002995,True,True,False,neutral,1,medium,bonus,bad
+418,Более 303 выплат за сегодня — убедись сам!,RU,betting,0.052724,0.006296,True,False,True,neutral,1,medium,fast_payouts,bad
+419,Бонус 328% + фрибет — не упусти шанс сорвать куш!,RU,gambling,0.082435,0.010023,True,True,False,fear,1,medium,bonus,good
+420,Удвой депозит до 142$! Жми на кнопку — деньги ждут!,UA,casino,0.056648,0.006871,True,False,False,greed,3,medium,deposit_bonus,good
+421,Осталось 42 мест — зарегистрируйся прямо сейчас и получи фрибет!,BY,betting,0.08465,0.010909,True,True,False,greed,2,medium,freebet,good
+422,Испытай удачу — ставь на спорт и получи заряд эмоций!,DE,gambling,0.04587,0.003964,False,False,False,greed,2,medium,general,bad
+423,Нас уже 119K — стань частью сообщества победителей!,PL,gambling,0.032262,0.00329,True,False,True,neutral,1,medium,general,bad
+424,Забери свой бонус 196% — жми и начинай выигрывать прямо сейчас!,KZ,gambling,0.105885,0.014326,True,True,False,greed,4,medium,bonus,good
+425,Осталось 129 мест — зарегистрируйся прямо сейчас и получи фрибет!,KZ,betting,0.129275,0.010387,True,True,False,greed,2,medium,freebet,good
+426,Уже 289+ игроков выиграли на этой неделе — присоединяйся!,UA,betting,0.042811,0.004766,True,False,True,neutral,1,medium,general,bad
+427,Ставки на спорт — удобно и надёжно.,KZ,gambling,0.027896,0.004026,False,False,False,neutral,1,medium,general,bad
+428,Ставки на спорт — удобно и надёжно.,BY,betting,0.033198,0.004163,False,False,False,neutral,1,medium,general,bad
+429,Букмекерская контора с быстрыми выплатами.,RU,gambling,0.030302,0.002746,False,False,False,neutral,1,short,fast_payouts,bad
+430,Ты теряешь деньги каждый день без кэшбэка 253%!,BY,betting,0.048377,0.004698,True,False,False,fear,1,medium,cashback,bad
+431,Ты теряешь деньги каждый день без кэшбэка 188%!,UA,casino,0.036662,0.004811,True,False,False,fear,1,medium,cashback,bad
+432,Последний шанс! 160 фриспинов ждут тебя — предложение истекает через час!,BY,betting,0.069804,0.009831,True,True,False,neutral,1,medium,freespins,good
+433,Упустишь — пожалеешь! Только 170 бонусов осталось!,RU,betting,0.076278,0.00671,True,True,False,fear,1,medium,bonus,good
+434,Более 153 выплат за сегодня — убедись сам!,PL,betting,0.034139,0.003815,True,False,True,neutral,1,medium,fast_payouts,bad
+435,Невероятные эмоции ждут — играй и выигрывай каждый день!,DE,gambling,0.03291,0.004592,False,False,False,excitement,2,medium,general,bad
+436,Бонус 67% + фрибет — не упусти шанс сорвать куш!,TR,gambling,0.050939,0.004994,True,True,False,fear,1,medium,bonus,bad
+437,476+ довольных игроков не могут ошибаться. Начни выигрывать!,UA,gambling,0.050705,0.006456,True,False,True,neutral,3,medium,general,bad
+438,Испытай удачу — ставь на спорт и получи заряд эмоций!,UA,betting,0.054407,0.007924,False,False,False,greed,2,medium,general,good
+439,Более 129 выплат за сегодня — убедись сам!,UA,betting,0.041048,0.003742,True,False,True,neutral,1,medium,fast_payouts,bad
+440,Букмекерская контора с быстрыми выплатами.,PL,betting,0.018517,0.001692,False,False,False,neutral,1,short,fast_payouts,bad
+441,167+ довольных игроков не могут ошибаться. Начни выигрывать!,TR,casino,0.037009,0.003295,True,False,True,neutral,3,medium,general,bad
+442,Невероятные эмоции ждут — играй и выигрывай каждый день!,BY,gambling,0.039137,0.0056,False,False,False,excitement,2,medium,general,bad
+443,Торопись! Бонус до 24$ — акция заканчивается сегодня!,BY,betting,0.052032,0.006992,True,True,False,neutral,1,medium,bonus,bad
+444,Осталось 11 мест — зарегистрируйся прямо сейчас и получи фрибет!,DE,gambling,0.061064,0.00842,True,True,False,greed,2,medium,freebet,good
+445,Почувствуй адреналин! Крути слоты и выигрывай до 368$!,KZ,gambling,0.052748,0.004223,True,False,False,excitement,2,medium,general,bad
+446,Последний шанс! 152 фриспинов ждут тебя — предложение истекает через час!,PL,betting,0.032971,0.0028,True,True,False,neutral,1,medium,freespins,bad
+447,Торопись! Бонус до 458$ — акция заканчивается сегодня!,DE,casino,0.04621,0.006009,True,True,False,neutral,1,medium,bonus,bad
+448,Торопись! Бонус до 35$ — акция заканчивается сегодня!,KZ,betting,0.060572,0.007407,True,True,False,neutral,1,medium,bonus,good
+449,Упустишь — пожалеешь! Только 336 бонусов осталось!,KZ,gambling,0.066275,0.009324,True,True,False,fear,1,medium,bonus,good
+450,Ставки на спорт — удобно и надёжно.,PL,betting,0.024097,0.003508,False,False,False,neutral,1,medium,general,bad
+451,247+ довольных игроков не могут ошибаться. Начни выигрывать!,DE,gambling,0.046428,0.006523,True,False,True,neutral,3,medium,general,bad
+452,Только сегодня! Бонус 289% на первый депозит — успей забрать!,UA,casino,0.038365,0.004949,True,True,False,neutral,1,medium,bonus,bad
+453,Невероятные эмоции ждут — играй и выигрывай каждый день!,UA,betting,0.046419,0.004215,False,False,False,excitement,2,medium,general,bad
+454,Азарт на максимум! Начни игру и сорви джекпот до 269$!,BY,gambling,0.053911,0.006764,True,False,False,excitement,3,medium,jackpot,good
+455,Без этого бонуса ты играешь в минус. Активируй 210% сейчас!,BY,gambling,0.04963,0.005192,True,True,False,fear,2,medium,bonus,bad
+456,Более 485 выплат за сегодня — убедись сам!,RU,gambling,0.070754,0.005725,True,False,True,neutral,1,medium,fast_payouts,good
+457,Уже 167+ игроков выиграли на этой неделе — присоединяйся!,DE,casino,0.047469,0.004259,True,False,True,neutral,1,medium,general,bad
+458,Большой выбор слотов и настольных игр для любого вкуса.,UA,gambling,0.028673,0.003595,False,False,False,neutral,1,medium,general,bad
+459,Забери свой бонус 221% — жми и начинай выигрывать прямо сейчас!,KZ,betting,0.085975,0.007676,True,True,False,greed,4,medium,bonus,good
+460,Бонус 123% + фрибет — не упусти шанс сорвать куш!,RU,betting,0.069741,0.008328,True,True,False,fear,1,medium,bonus,good
+461,Упустишь — пожалеешь! Только 152 бонусов осталось!,PL,betting,0.063357,0.008969,True,True,False,fear,1,medium,bonus,good
+462,Нас уже 63K — стань частью сообщества победителей!,RU,gambling,0.04964,0.004101,True,False,True,neutral,1,medium,general,bad
+463,Онлайн-казино с лицензией. Широкий выбор игр.,UA,casino,0.02398,0.001991,False,False,False,neutral,1,short,licensed,bad
+464,Только сегодня! Бонус 81% на первый депозит — успей забрать!,KZ,gambling,0.038726,0.003716,True,True,False,neutral,1,medium,bonus,bad
+465,382+ довольных игроков не могут ошибаться. Начни выигрывать!,BY,betting,0.038224,0.004775,True,False,True,neutral,3,medium,general,bad
+466,Букмекерская контора с быстрыми выплатами.,TR,betting,0.019092,0.002174,False,False,False,neutral,1,short,fast_payouts,bad
+467,Почувствуй адреналин! Крути слоты и выигрывай до 163$!,KZ,betting,0.063051,0.006261,True,False,False,excitement,2,medium,general,good
+468,Только сегодня! Бонус 82% на первый депозит — успей забрать!,RU,casino,0.061448,0.005304,True,True,False,neutral,1,medium,bonus,good
+469,178 фриспинов бесплатно — активируй и забирай выигрыш!,RU,gambling,0.099175,0.011315,True,False,False,greed,3,medium,freespins,good
+470,Успей за 186 минут! Эксклюзивный кэшбэк только для новых игроков!,DE,betting,0.042125,0.004311,True,True,True,neutral,1,medium,cashback,bad
+471,499+ довольных игроков не могут ошибаться. Начни выигрывать!,BY,gambling,0.039851,0.004861,True,False,True,neutral,3,medium,general,bad
+472,Уже 60+ игроков выиграли на этой неделе — присоединяйся!,DE,gambling,0.04272,0.00429,True,False,True,neutral,1,medium,general,bad
+473,Только сегодня! Бонус 369% на первый депозит — успей забрать!,BY,gambling,0.044941,0.004961,True,True,False,neutral,1,medium,bonus,bad
+474,Букмекерская контора с быстрыми выплатами.,RU,gambling,0.019993,0.002785,False,False,False,neutral,1,short,fast_payouts,bad
+475,Забери свой бонус 424% — жми и начинай выигрывать прямо сейчас!,TR,gambling,0.08547,0.006994,True,True,False,greed,4,medium,bonus,good
+476,Осталось 226 мест — зарегистрируйся прямо сейчас и получи фрибет!,BY,gambling,0.080419,0.008079,True,True,False,greed,2,medium,freebet,good
+477,Почувствуй адреналин! Крути слоты и выигрывай до 172$!,TR,gambling,0.032722,0.00377,True,False,False,excitement,2,medium,general,bad
+478,Получи до 414$ без риска! Регистрируйся и выводи!,DE,betting,0.047225,0.005076,True,False,False,greed,2,medium,general,bad
+479,Последний шанс! 60 фриспинов ждут тебя — предложение истекает через час!,TR,betting,0.039457,0.004705,True,True,False,neutral,1,medium,freespins,bad
+480,Пока ты думаешь — другие забирают бонусы до 283$!,RU,gambling,0.061969,0.007496,True,True,False,fear,1,medium,bonus,good
+481,Почувствуй адреналин! Крути слоты и выигрывай до 159$!,TR,gambling,0.050987,0.004561,True,False,False,excitement,2,medium,general,bad
+482,4 фриспинов бесплатно — активируй и забирай выигрыш!,KZ,gambling,0.069282,0.006334,True,False,False,greed,3,medium,freespins,good
+483,Невероятные эмоции ждут — играй и выигрывай каждый день!,KZ,betting,0.049028,0.005484,False,False,False,excitement,2,medium,general,bad
+484,19+ довольных игроков не могут ошибаться. Начни выигрывать!,RU,gambling,0.061664,0.005808,True,False,True,neutral,3,medium,general,good
+485,Большой выбор слотов и настольных игр для любого вкуса.,BY,gambling,0.029016,0.002867,False,False,False,neutral,1,medium,general,bad
+486,Не упусти! Бонус 200% сгорает через 17 часа!,TR,gambling,0.053581,0.007763,True,True,False,fear,1,medium,bonus,good
+487,Торопись! Бонус до 57$ — акция заканчивается сегодня!,DE,gambling,0.044507,0.005191,True,True,False,neutral,1,medium,bonus,bad
+488,Бонус 27% + фрибет — не упусти шанс сорвать куш!,PL,gambling,0.058034,0.006698,True,True,False,fear,1,medium,bonus,good
+489,Торопись! Бонус до 330$ — акция заканчивается сегодня!,DE,betting,0.040903,0.003937,True,True,False,neutral,1,medium,bonus,bad
+490,Получи до 34$ без риска! Регистрируйся и выводи!,RU,betting,0.079894,0.011205,True,False,False,greed,2,medium,general,good
+491,Удвой депозит до 330$! Жми на кнопку — деньги ждут!,BY,betting,0.064331,0.005535,True,False,False,greed,3,medium,deposit_bonus,good
+492,Без этого бонуса ты играешь в минус. Активируй 346% сейчас!,KZ,betting,0.070946,0.010565,True,True,False,fear,2,medium,bonus,good
+493,Более 40 выплат за сегодня — убедись сам!,BY,betting,0.038563,0.004695,True,False,True,neutral,1,medium,fast_payouts,bad
+494,381 человек забрали бонус за последний час! Ты следующий?,BY,gambling,0.037845,0.00392,True,False,True,neutral,1,medium,bonus,bad
+495,Букмекерская контора с быстрыми выплатами.,RU,betting,0.019442,0.002497,False,False,False,neutral,1,short,fast_payouts,bad
+496,Игровые автоматы от ведущих провайдеров. Попробуй бесплатно.,KZ,betting,0.041207,0.006155,False,False,False,greed,1,medium,general,bad
+497,Ставки на спорт — удобно и надёжно.,PL,gambling,0.024761,0.003353,False,False,False,neutral,1,medium,general,bad
+498,Нас уже 237K — стань частью сообщества победителей!,TR,betting,0.03588,0.004862,True,False,True,neutral,1,medium,general,bad
+499,Испытай удачу — ставь на спорт и получи заряд эмоций!,RU,gambling,0.039612,0.004387,False,False,False,greed,2,medium,general,bad
+500,Драйв начинается здесь! Делай ставку и побеждай!,KZ,betting,0.053063,0.006298,False,False,False,excitement,3,medium,general,bad
+501,Бонус 413% + фрибет — не упусти шанс сорвать куш!,PL,betting,0.05315,0.006876,True,True,False,fear,1,medium,bonus,good
+502,Успей за 452 минут! Эксклюзивный кэшбэк только для новых игроков!,TR,casino,0.075199,0.007114,True,True,True,neutral,1,medium,cashback,good
+503,Удвой депозит до 295$! Жми на кнопку — деньги ждут!,PL,casino,0.043251,0.003851,True,False,False,greed,3,medium,deposit_bonus,bad
+504,Азарт на максимум! Начни игру и сорви джекпот до 117$!,RU,betting,0.068222,0.009537,True,False,False,excitement,3,medium,jackpot,good
+505,Бонус 286% + фрибет — не упусти шанс сорвать куш!,TR,betting,0.053108,0.006095,True,True,False,fear,1,medium,bonus,good
+506,Бонус 306% + фрибет — не упусти шанс сорвать куш!,RU,betting,0.079443,0.011849,True,True,False,fear,1,medium,bonus,good
+507,Пока ты думаешь — другие забирают бонусы до 459$!,UA,gambling,0.055086,0.007358,True,True,False,fear,1,medium,bonus,good
+508,Драйв начинается здесь! Делай ставку и побеждай!,DE,betting,0.051535,0.005497,False,False,False,excitement,3,medium,general,bad
+509,Азарт на максимум! Начни игру и сорви джекпот до 217$!,DE,gambling,0.04395,0.005006,True,False,False,excitement,3,medium,jackpot,bad
+510,Забери свой бонус 489% — жми и начинай выигрывать прямо сейчас!,RU,gambling,0.134657,0.018269,True,True,False,greed,4,medium,bonus,good
+511,Более 297 выплат за сегодня — убедись сам!,PL,gambling,0.041471,0.005889,True,False,True,neutral,1,medium,fast_payouts,bad
+512,Удвой депозит до 71$! Жми на кнопку — деньги ждут!,UA,betting,0.06786,0.010168,True,False,False,greed,3,medium,deposit_bonus,good
+513,Осталось 426 мест — зарегистрируйся прямо сейчас и получи фрибет!,UA,gambling,0.077925,0.007829,True,True,False,greed,2,medium,freebet,good
+514,Торопись! Бонус до 469$ — акция заканчивается сегодня!,TR,gambling,0.047247,0.006131,True,True,False,neutral,1,medium,bonus,bad
+515,Почувствуй адреналин! Крути слоты и выигрывай до 452$!,PL,gambling,0.062281,0.008735,True,False,False,excitement,2,medium,general,good
+516,Последний шанс! 284 фриспинов ждут тебя — предложение истекает через час!,UA,gambling,0.046496,0.004719,True,True,False,neutral,1,medium,freespins,bad
+517,Удвой депозит до 163$! Жми на кнопку — деньги ждут!,TR,gambling,0.061602,0.008142,True,False,False,greed,3,medium,deposit_bonus,good
+518,Только сегодня! Бонус 25% на первый депозит — успей забрать!,KZ,betting,0.063702,0.009177,True,True,False,neutral,1,medium,bonus,good
+519,Большой выбор слотов и настольных игр для любого вкуса.,TR,gambling,0.02475,0.002487,False,False,False,neutral,1,medium,general,bad
+520,Бонус 33% + фрибет — не упусти шанс сорвать куш!,BY,betting,0.054984,0.008239,True,True,False,fear,1,medium,bonus,good

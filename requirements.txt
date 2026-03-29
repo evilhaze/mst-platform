@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+gunicorn
+redis
+anthropic
+lightgbm
+scikit-learn
+pandas
+numpy
+mlflow
+pydantic
+pydantic-settings
+prometheus-fastapi-instrumentator
+python-dotenv
+scipy
+joblib
