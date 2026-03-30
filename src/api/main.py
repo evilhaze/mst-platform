@@ -211,9 +211,21 @@ async def lifespan(app: FastAPI):
 # App
 # ---------------------------------------------------------------------------
 app = FastAPI(
-    title="MST Platform",
-    version="1.0.0",
-    description="Unified ML platform: ROI prediction, creative analysis & generation.",
+    title="MST Platform API",
+    description="""
+## MST Platform — AI-powered advertising intelligence
+
+### Эндпоинты:
+- **POST /predict** — предсказание ROI/CTR кампании (LightGBM, ROC-AUC 0.74)
+- **POST /predict/batch** — батч до 10K объектов
+- **POST /creatives/analyze** — анализ текста объявления + 3 совета
+- **POST /creatives/generate** — генерация 5 вариантов через Claude API
+- **GET /health** — статус всех компонентов + cache_hit_rate
+- **GET /metrics** — метрики моделей + дата обучения
+    """,
+    version="2.1.0",
+    docs_url="/docs",
+    redoc_url="/redoc",
     lifespan=lifespan,
 )
 
