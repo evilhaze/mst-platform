@@ -81,6 +81,52 @@ class TimeFeatureEngineer(BaseEstimator, TransformerMixin):
         return X
 
 
+class FrequencyInteractionEngineer(BaseEstimator, TransformerMixin):
+    """
+    Adds frequency-encoded columns, target-encoded columns,
+    and interaction features for Avazu-enriched pipeline.
+    """
+
+    def __init__(self, freq_cols, target_enc_cols, interaction_pairs):
+        self.freq_cols = freq_cols
+        self.target_enc_cols = target_enc_cols
+        self.interaction_pairs = interaction_pairs
+
+    def fit(self, X, y=None):
+        self.freq_maps_ = {}
+        for col in self.freq_cols:
+            counts = X[col].value_counts(normalize=True)
+            self.freq_maps_[col] = counts.to_dict()
+
+        # Target encoding (smoothed with global mean)
+        self.target_maps_ = {}
+        self.global_mean_ = float(y.mean()) if y is not None else 0.5
+        if y is not None:
+            for col in self.target_enc_cols:
+                df_tmp = pd.DataFrame({"col": X[col].values, "y": y.values})
+                stats = df_tmp.groupby("col")["y"].agg(["mean", "count"])
+                smooth_factor = 100
+                stats["smoothed"] = (
+                    (stats["mean"] * stats["count"] + self.global_mean_ * smooth_factor)
+                    / (stats["count"] + smooth_factor)
+                )
+                self.target_maps_[col] = stats["smoothed"].to_dict()
+        return self
+
+    def transform(self, X):
+        X = X.copy()
+        for col in self.freq_cols:
+            freq_map = self.freq_maps_[col]
+            global_mean = np.mean(list(freq_map.values()))
+            X[f"{col}_freq"] = X[col].map(freq_map).fillna(global_mean)
+        for col in self.target_enc_cols:
+            tgt_map = self.target_maps_.get(col, {})
+            X[f"{col}_te"] = X[col].map(tgt_map).fillna(self.global_mean_)
+        X["hour_device"] = X["hour_of_day"] * X["device_type"]
+        X["banner_conn"] = X["banner_pos"] * X["device_conn_type"]
+        return X
+
+
 # ---------------------------------------------------------------------------
 # Feature column definitions (used by ColumnTransformer)
 # ---------------------------------------------------------------------------
