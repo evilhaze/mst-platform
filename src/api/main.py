@@ -460,19 +460,22 @@ async def metrics():
     model = _state.get("model")
 
     # ROI model info
+    meta = getattr(model, "meta", {})
+    test_metrics = meta.get("metrics", {})
+
     roi_metrics: dict[str, Any] = {
         "model_version": getattr(model, "version", "unknown"),
         "trained_at": str(getattr(model, "trained_at", None)),
         "threshold": getattr(model, "threshold", None),
         "total_predictions": getattr(model, "total_predictions", 0),
+        "dataset": meta.get("dataset"),
+        "n_rows": meta.get("n_rows"),
+        "roc_auc": test_metrics.get("test_roc_auc"),
+        "precision": test_metrics.get("test_precision"),
+        "recall": test_metrics.get("test_recall"),
+        "f1": test_metrics.get("test_f1"),
+        "baseline_roc_auc": meta.get("baseline_roc_auc", "0.6569 +/- 0.0014"),
     }
-
-    # Pull ROC-AUC from model metadata if available
-    meta = getattr(model, "meta", {})
-    if "metrics" in meta:
-        roi_metrics["roc_auc"] = meta["metrics"].get("roc_auc")
-        roi_metrics["pr_auc"] = meta["metrics"].get("pr_auc")
-        roi_metrics["f1"] = meta["metrics"].get("f1")
 
     # Creative classifier info
     creative_metrics: dict[str, Any] = {}

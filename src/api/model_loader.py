@@ -29,15 +29,6 @@ DEFAULT_META_PATH  = MODELS_DIR / "model_meta.json"
 THRESHOLD = 0.5  # Override with optimal_threshold from model_meta.json
 
 
-def _load_feature_order() -> list[str]:
-    """Read the expected feature order from model_meta.json."""
-    if DEFAULT_META_PATH.exists():
-        with open(DEFAULT_META_PATH) as f:
-            meta = json.load(f)
-        return meta.get("features", [])
-    return []
-
-
 class _ModelWrapper:
     """
     Wraps the sklearn Pipeline with metadata and prediction helpers.
@@ -129,7 +120,14 @@ def load_model(model_path: Path = DEFAULT_MODEL_PATH) -> "_ModelWrapper":
 
         pipeline = artifact["pipeline"]
         meta = artifact.get("meta", {})
-        feature_order = _load_feature_order()
+
+        # Merge standalone model_meta.json (authoritative) over pickle meta
+        if DEFAULT_META_PATH.exists():
+            with open(DEFAULT_META_PATH) as f:
+                file_meta = json.load(f)
+            meta.update(file_meta)
+
+        feature_order = meta.get("features", [])
 
         _MODEL_INSTANCE = _ModelWrapper(
             pipeline=pipeline, meta=meta, feature_order=feature_order,
