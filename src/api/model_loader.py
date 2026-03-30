@@ -29,14 +29,24 @@ DEFAULT_META_PATH  = MODELS_DIR / "model_meta.json"
 THRESHOLD = 0.5  # Override with optimal_threshold from model_meta.json
 
 
+def _load_feature_order() -> list[str]:
+    """Read the expected feature order from model_meta.json."""
+    if DEFAULT_META_PATH.exists():
+        with open(DEFAULT_META_PATH) as f:
+            meta = json.load(f)
+        return meta.get("features", [])
+    return []
+
+
 class _ModelWrapper:
     """
     Wraps the sklearn Pipeline with metadata and prediction helpers.
     """
 
-    def __init__(self, pipeline, meta: dict):
+    def __init__(self, pipeline, meta: dict, feature_order: list[str]):
         self.pipeline = pipeline
         self.meta = meta
+        self.feature_order = feature_order
         self.version: str = meta.get("version", "unknown")
         self.trained_at: datetime | None = (
             datetime.fromisoformat(meta["trained_at"])
@@ -46,8 +56,17 @@ class _ModelWrapper:
         self.total_predictions: int = 0
         self._lock = threading.Lock()
 
+    def _align_features(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Reorder and fill columns to match the training feature order."""
+        if not self.feature_order:
+            return df
+        for col in self.feature_order:
+            if col not in df.columns:
+                df[col] = 0
+        return df[self.feature_order]
+
     def predict_single(self, features: dict) -> dict:
-        df = pd.DataFrame([features])
+        df = self._align_features(pd.DataFrame([features]))
         prob = self.pipeline.predict_proba(df)[0, 1]
         label = int(prob >= self.threshold)
         confidence = prob if label == 1 else 1 - prob
@@ -63,7 +82,7 @@ class _ModelWrapper:
         }
 
     def predict_batch(self, features_list: list[dict]) -> list[dict]:
-        df = pd.DataFrame(features_list)
+        df = self._align_features(pd.DataFrame(features_list))
         probs = self.pipeline.predict_proba(df)[:, 1]
         labels = (probs >= self.threshold).astype(int)
         confidences = np.where(labels == 1, probs, 1 - probs)
@@ -110,11 +129,15 @@ def load_model(model_path: Path = DEFAULT_MODEL_PATH) -> "_ModelWrapper":
 
         pipeline = artifact["pipeline"]
         meta = artifact.get("meta", {})
+        feature_order = _load_feature_order()
 
-        _MODEL_INSTANCE = _ModelWrapper(pipeline=pipeline, meta=meta)
+        _MODEL_INSTANCE = _ModelWrapper(
+            pipeline=pipeline, meta=meta, feature_order=feature_order,
+        )
         logger.info("model_loaded", extra={
             "version": _MODEL_INSTANCE.version,
             "trained_at": str(_MODEL_INSTANCE.trained_at),
+            "features": len(feature_order),
             "path": str(model_path),
         })
 

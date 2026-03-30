@@ -3,13 +3,16 @@ Pydantic schemas for request/response validation.
 
 Strict typing ensures invalid inputs return 422 (Unprocessable Entity),
 not 500 (Internal Server Error). All business rule validations here.
+
+Model v2.1.0 trained on Avazu-enriched dataset — features must match
+the exact list in models/model_meta.json.
 """
 from __future__ import annotations
 
 from datetime import datetime
 from typing import Annotated, Literal
 
-from pydantic import BaseModel, Field, field_validator, model_validator
+from pydantic import BaseModel, Field, model_validator
 
 
 # ---------------------------------------------------------------------------
@@ -18,72 +21,94 @@ from pydantic import BaseModel, Field, field_validator, model_validator
 
 class AdEventFeatures(BaseModel):
     """
-    Features describing a single ad event to score.
+    Features for model v2.1.0 (Avazu-enriched dataset).
 
-    All fields map 1:1 to model feature columns.
-    Defaults provided for optional fields to support partial payloads.
+    Most fields are optional with sensible defaults so that a minimal
+    request body (e.g. just ``{"features": {}}``) is valid.
     """
 
-    # --- Numeric ---
-    impressions: Annotated[int, Field(ge=1, le=10_000_000)] = 1000
-    clicks: Annotated[int, Field(ge=0, le=1_000_000)] = 10
-    ctr: Annotated[float, Field(ge=0.0, le=1.0)] | None = None
-    spend: Annotated[float, Field(ge=0.0, le=100_000.0)] = 5.0
-    cpc: Annotated[float, Field(ge=0.0, le=1_000.0)] | None = None
-    bid_amount: Annotated[float, Field(ge=0.01, le=500.0)] = 0.5
+    # --- Core Avazu numeric ---
     hour_of_day: Annotated[int, Field(ge=0, le=23)] = 12
-    day_of_week: Annotated[int, Field(ge=0, le=6)] = 0
-    campaign_age_days: Annotated[int, Field(ge=0, le=3650)] = 30
+    day_of_week: Annotated[int, Field(ge=0, le=6)] = 3
+    banner_pos: Annotated[int, Field(ge=0, le=7)] = 0
+    device_type: Annotated[int, Field(ge=0, le=7)] = 1
+    device_conn_type: Annotated[int, Field(ge=0, le=5)] = 0
 
-    # Feature-store aggregates
-    avg_ctr_geo_7d: Annotated[float, Field(ge=0.0, le=1.0)] = 0.02
-    avg_ctr_device_7d: Annotated[float, Field(ge=0.0, le=1.0)] = 0.02
-    avg_ctr_creative_7d: Annotated[float, Field(ge=0.0, le=1.0)] = 0.02
+    # Avazu anonymous features (C14–C21)
+    C14: int = 15706
+    C15: int = 320
+    C16: int = 50
+    C17: int = 1722
+    C18: int = 0
+    C19: int = 35
+    C20: int = -1
+    C21: int = 79
+
+    # Campaign numeric
+    bid: Annotated[float, Field(ge=0.0)] = 0.5
+    impressions: Annotated[int, Field(ge=0)] = 1000
+    spend: Annotated[float, Field(ge=0.0)] = 5.0
+
+    # Hashed high-cardinality IDs
+    site_id_hash: int = 500
+    app_id_hash: int = 500
+    device_model_hash: int = 500
+
+    # Frequency-encoded features
+    site_category_freq: float = 0.05
+    app_category_freq: float = 0.05
+    geo_freq: float = 0.1
+    device_conn_type_freq: float = 0.3
+
+    # Target-encoded features
+    site_category_te: float = 0.17
+    app_category_te: float = 0.17
+    geo_te: float = 0.17
+    vertical_te: float = 0.17
+    device_te: float = 0.17
 
     # Interaction features
-    ctr_vs_geo_baseline: Annotated[float, Field(ge=0.0, le=10.0)] = 1.0
-    ctr_vs_device_baseline: Annotated[float, Field(ge=0.0, le=10.0)] = 1.0
-    ctr_vs_creative_hist: Annotated[float, Field(ge=0.0, le=10.0)] = 1.0
-    spend_per_impression: Annotated[float, Field(ge=0.0, le=100.0)] = 0.02
-    bid_to_cpc_ratio: Annotated[float, Field(ge=0.0, le=100.0)] = 1.0
+    hour_device: float = 12.0
+    banner_conn: float = 0.0
 
     # --- Categorical ---
-    geo: Literal["US", "UK", "DE", "FR", "CA", "AU", "JP", "BR"] = "US"
-    device_type: Literal["mobile", "desktop", "tablet"] = "desktop"
-    ad_format: Literal["banner", "video", "native", "interstitial"] = "banner"
-    placement: Literal["top", "sidebar", "in-feed", "footer"] = "top"
+    geo: str = "US"
+    traffic_source: str = "organic"
+    vertical: str = "gambling"
+    device: str = "Generic"
+    site_category: str = "entertainment"
+    app_category: str = "unknown"
 
     @model_validator(mode="after")
-    def derive_ratios(self) -> "AdEventFeatures":
-        """Auto-compute CTR and CPC if not provided."""
-        if self.ctr is None:
-            self.ctr = self.clicks / max(self.impressions, 1)
-        if self.cpc is None:
-            self.cpc = self.spend / max(self.clicks, 1)
+    def derive_interactions(self) -> "AdEventFeatures":
+        """Auto-compute interaction features if left at defaults."""
+        if self.hour_device == 12.0 and self.hour_of_day != 12:
+            self.hour_device = float(self.hour_of_day * self.device_type)
+        if self.banner_conn == 0.0 and self.banner_pos != 0:
+            self.banner_conn = float(self.banner_pos * self.device_conn_type)
         return self
-
-    @field_validator("clicks")
-    @classmethod
-    def clicks_le_impressions(cls, v: int, info) -> int:
-        # Access impressions from model_fields_set if available
-        return v
 
     model_config = {"json_schema_extra": {
         "example": {
-            "impressions": 50000,
-            "clicks": 1200,
-            "spend": 850.0,
-            "bid_amount": 0.75,
             "hour_of_day": 14,
             "day_of_week": 2,
-            "campaign_age_days": 45,
-            "avg_ctr_geo_7d": 0.024,
-            "avg_ctr_device_7d": 0.026,
-            "avg_ctr_creative_7d": 0.022,
+            "banner_pos": 0,
+            "device_type": 1,
+            "device_conn_type": 0,
+            "C14": 15706,
+            "C15": 320,
+            "C16": 50,
+            "C17": 1722,
+            "C18": 0,
+            "C19": 35,
+            "C20": -1,
+            "C21": 79,
+            "bid": 0.75,
+            "impressions": 50000,
+            "spend": 850.0,
             "geo": "US",
-            "device_type": "desktop",
-            "ad_format": "native",
-            "placement": "in-feed",
+            "traffic_source": "organic",
+            "vertical": "gambling",
         }
     }}
 
